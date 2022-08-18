@@ -36,11 +36,11 @@ function form(event) {
     }
     if (score >= 10) {
         console.log("You win");
-        window.location.href = "../levels/level_2.html";
+        window.location.href = "../levels/lose.html";
     }
     if (health <= 0) {
         console.log("Lol u lost, how did you fail");
-        window.location.href = "../levels/lose.html";
+        window.location.href = "../levels/level_2.html";
     }
     document.getElementById("answer").value = "";
 
